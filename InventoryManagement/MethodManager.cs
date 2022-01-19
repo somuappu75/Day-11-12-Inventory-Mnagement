@@ -7,7 +7,7 @@ namespace InventoryManagement
 {
     internal interface  MethodManager
     {
-        //Display methods
+        // Interface Class Display methods
         void DisplayInventory(List<Rice> ricelist);
         void DisplayInventory(List<Wheat> wheatList);
         void DisplayInventory(List<Pulse> pulseList);

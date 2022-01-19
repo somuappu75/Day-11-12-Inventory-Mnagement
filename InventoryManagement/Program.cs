@@ -19,7 +19,7 @@ namespace InventoryManagement
                 case 1:
                     //Rice Inventory operations
                     var fs = inventory.RiceList;
-                    Console.WriteLine("Enter which operation to perform\n 1-Add to Inventory\n 2-Delete from inventory\n3-Display Inventory");
+                    Console.WriteLine("Enter Option  to Perform\n 1-Add to Inventory\n 2-Delete from inventory\n3-Display Inventory");
                     int num = Convert.ToInt32(Console.ReadLine());
                     switch (num)
                     {

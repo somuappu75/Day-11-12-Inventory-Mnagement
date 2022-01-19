@@ -34,7 +34,7 @@ namespace InventoryManagement
             }
         }
         //Add To Inventory
-        //Add Rice
+        //Add Rice Details 
         public void AddInventory(List<Rice> ricelist)
         {
             Rice rice = new Rice();
